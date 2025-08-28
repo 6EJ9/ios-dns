@@ -8,10 +8,15 @@ A simple .mobileconfig profile to configure your iPhone or iPad to use AdGuard's
 
 # ONE-CLICK INSTALLATION #
 
-To install directly on your iPhone or iPad:
+📲 INSTALL DIRECTLY ON YOUR iPHONE/iPAD:
 
-· Tap this link on your device: Install AdGuard DNS Profile
-· Your device will ask for confirmation. Tap Allow
+⬇️ DOWNLOAD LINK:
+https://github.com/6EJ9/ios-dns/raw/refs/heads/main/adguard-standard.mobileconfig
+
+📋 INSTALLATION STEPS:
+
+· Tap the download link above on your iOS device
+· Your device will ask for confirmation - Tap Allow
 · Open the Settings app
 · Tap Profile Downloaded near the top of Settings
 · Tap Install in the top right (enter your passcode if asked)
