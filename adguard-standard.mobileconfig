@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>AdGuard (Standard) DNS over TLS</string>
+		<key>PayloadOrganization</key>
+		<string>encrypted-dns.party</string>
+		<key>PayloadDescription</key>
+		<string>This profile enables AdGuard (Standard) DNS over TLS on all networks using the iOS 14 Encrypted DNS feature.
+
+Downloaded from encrypted-dns.party.</string>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Privacy policy:
+https://adguard-dns.io/privacy.html</string>
+		</dict>
+		<key>PayloadIdentifier</key>
+		<string>4d3487c5-a3a2-45a0-8de4-426cfc83b295</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>0996d6fb-3cb9-491f-bca2-06b3b3df0639</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>94.140.14.14</string>
+						<string>2a10:50c0::ad1:ff</string>
+						<string>94.140.15.15</string>
+						<string>2a10:50c0::ad2:ff</string>
+					</array>
+					<key>ServerName</key>
+					<string>dns.adguard.com</string>
+				</dict>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadIdentifier</key>
+				<string>035e6ec1-e838-40a4-8870-acf7ace4e5c4</string>
+				<key>PayloadUUID</key>
+				<string>71264bb7-66bb-4726-9fb1-7cd6f99aa005</string>
+				<key>PayloadDisplayName</key>
+				<string>AdGuard (Standard) DNS over TLS</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>OnDemandRules</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>Connect</string>
+				<key>InterfaceTypeMatch</key>
+				<string>Cellular</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>Connect</string>
+				<key>URLStringProbe</key>
+				<string>http://captive.apple.com/hotspot-detect.html</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
